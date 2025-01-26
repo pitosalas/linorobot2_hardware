@@ -39,13 +39,19 @@
 // #define USE_AK8975_MAG
 #define USE_AK09918_MAG
 // #define USE_QMC5883L_MAG
-// #define MAG_BIAS { 0, 0, 0 }
+
+#define MAG_BIAS { 1.32662e-05, -5.43438e-05, 1.06151e-05 } //magnetometer bias
 // #define IMU_TWEAK {}
 // #define MAG_TWEAK {}
 
 #define K_P 0.6                             // P constant
 #define K_I 0.8                             // I constant
 #define K_D 0.5                             // D constant
+
+// #define K_P 3.0                            // P constant
+// #define K_I 0.0                             // I constant
+// #define K_D 0.0                             // D constant
+
 
 #define ACCEL_COV { 0.01, 0.01, 0.01 }
 #define GYRO_COV { 0.001, 0.001, 0.001 }
@@ -63,25 +69,25 @@ ROBOT ORIENTATION
 */
 
 //define your robot' specs here
-#define MOTOR_MAX_RPM 150                   // motor's max RPM
+#define MOTOR_MAX_RPM 300                   // motor's max RPM
 #define MAX_RPM_RATIO 0.85                  // max RPM allowed for each MAX_RPM_ALLOWED = MOTOR_MAX_RPM * MAX_RPM_RATIO
 #define MOTOR_OPERATING_VOLTAGE 12          // motor's operating voltage (used to calculate max RPM)
 #define MOTOR_POWER_MAX_VOLTAGE 12          // max voltage of the motor's power source (used to calculate max RPM)
 #define MOTOR_POWER_MEASURED_VOLTAGE 12     // current voltage reading of the power connected to the motor (used for calibration)
-#define COUNTS_PER_REV1 450                 // wheel1 encoder's no of ticks per rev
-#define COUNTS_PER_REV2 450                 // wheel2 encoder's no of ticks per rev
+#define COUNTS_PER_REV1 985                 // wheel1 encoder's no of ticks per rev
+#define COUNTS_PER_REV2 985                 // wheel2 encoder's no of ticks per rev
 #define COUNTS_PER_REV3 450                 // wheel3 encoder's no of ticks per rev
 #define COUNTS_PER_REV4 450                 // wheel4 encoder's no of ticks per rev
-#define WHEEL_DIAMETER 0.0560               // wheel's diameter in meters
-#define LR_WHEELS_DISTANCE 0.224            // distance between left and right wheels
+#define WHEEL_DIAMETER 0.06                // wheel's diameter in meters
+#define LR_WHEELS_DISTANCE 0.2375           // distance between left and right wheels
 #define PWM_BITS 10                         // PWM Resolution of the microcontroller
 #define PWM_FREQUENCY 20000                 // PWM Frequency
 #define SERVO_BITS 12                       // Servo PWM resolution
 #define SERVO_FREQ 50                       // Servo PWM frequency
 
 // INVERT ENCODER COUNTS
-#define MOTOR1_ENCODER_INV false
-#define MOTOR2_ENCODER_INV false
+#define MOTOR1_ENCODER_INV true
+#define MOTOR2_ENCODER_INV true
 #define MOTOR3_ENCODER_INV false
 #define MOTOR4_ENCODER_INV false
 
@@ -237,7 +243,6 @@ ROBOT ORIENTATION
 }
 // #define BOARD_INIT_LATE {}
 // #define BOARD_LOOP {}
-// #define JOINT_STATE_SUBSCRIBER "joint_states"
 
 #ifdef USE_SYSLOG
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){ \

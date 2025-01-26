@@ -39,7 +39,7 @@
 // #define USE_AK8975_MAG
 #define USE_AK09918_MAG
 // #define USE_QMC5883L_MAG
-// #define MAG_BIAS { 0, 0, 0 }
+#define MAG_BIAS { 1.32662e-05, -5.43438e-05, 1.06151e-05 } //magnetometer bias
 // #define IMU_TWEAK {}
 // #define MAG_TWEAK {}
 
