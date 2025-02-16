@@ -45,8 +45,8 @@
 // #define MAG_TWEAK {}
 
 #define K_P 0.6                             // P constant
-#define K_I 0.0                             // I constant
-#define K_D 2.0                             // D constant
+#define K_I 0.8                             // I constant
+#define K_D 0.0                            // D constant
 
 // #define K_P 0.6                             // P constant
 // #define K_I 0.8                             // I constant
