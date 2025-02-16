@@ -45,12 +45,12 @@
 // #define MAG_TWEAK {}
 
 #define K_P 0.6                             // P constant
-#define K_I 0.8                             // I constant
-#define K_D 0.5                             // D constant
+#define K_I 0.0                             // I constant
+#define K_D 2.0                             // D constant
 
-// #define K_P 3.0                            // P constant
-// #define K_I 0.0                             // I constant
-// #define K_D 0.0                             // D constant
+// #define K_P 0.6                             // P constant
+// #define K_I 0.8                             // I constant
+// #define K_D 0.5                             // D constant
 
 
 #define ACCEL_COV { 0.01, 0.01, 0.01 }
@@ -69,7 +69,7 @@ ROBOT ORIENTATION
 */
 
 //define your robot' specs here
-#define MOTOR_MAX_RPM 300                   // motor's max RPM
+#define MOTOR_MAX_RPM 200                   // motor's max RPM
 #define MAX_RPM_RATIO 0.85                  // max RPM allowed for each MAX_RPM_ALLOWED = MOTOR_MAX_RPM * MAX_RPM_RATIO
 #define MOTOR_OPERATING_VOLTAGE 12          // motor's operating voltage (used to calculate max RPM)
 #define MOTOR_POWER_MAX_VOLTAGE 12          // max voltage of the motor's power source (used to calculate max RPM)
