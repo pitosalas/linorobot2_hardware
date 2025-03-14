@@ -37,7 +37,7 @@
 // #define USE_HMC5883L_MAG
 // #define USE_AK8963_MAG
 // #define USE_AK8975_MAG
-#define USE_AK09918_MAG
+// #define USE_AK09918_MAG
 // #define USE_QMC5883L_MAG
 
 #define MAG_BIAS { 1.32662e-05, -5.43438e-05, 1.06151e-05 } //magnetometer bias
@@ -78,8 +78,8 @@ ROBOT ORIENTATION
 #define COUNTS_PER_REV2 985                 // wheel2 encoder's no of ticks per rev
 #define COUNTS_PER_REV3 450                 // wheel3 encoder's no of ticks per rev
 #define COUNTS_PER_REV4 450                 // wheel4 encoder's no of ticks per rev
-#define WHEEL_DIAMETER 0.06                // wheel's diameter in meters
-#define LR_WHEELS_DISTANCE 0.2375           // distance between left and right wheels
+#define WHEEL_DIAMETER 0.0625               // wheel's diameter in meters
+#define LR_WHEELS_DISTANCE 0.2425           // distance between left and right wheels
 #define PWM_BITS 10                         // PWM Resolution of the microcontroller
 #define PWM_FREQUENCY 20000                 // PWM Frequency
 #define SERVO_BITS 12                       // Servo PWM resolution
