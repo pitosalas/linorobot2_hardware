@@ -37,7 +37,7 @@
 // #define USE_HMC5883L_MAG
 // #define USE_AK8963_MAG
 // #define USE_AK8975_MAG
-// #define USE_AK09918_MAG
+#define USE_AK09918_MAG
 // #define USE_QMC5883L_MAG
 
 #define MAG_BIAS { 1.32662e-05, -5.43438e-05, 1.06151e-05 } //magnetometer bias
@@ -47,11 +47,6 @@
 #define K_P 0.6                             // P constant
 #define K_I 0.8                             // I constant
 #define K_D 0.0                            // D constant
-
-// #define K_P 0.6                             // P constant
-// #define K_I 0.8                             // I constant
-// #define K_D 0.5                             // D constant
-
 
 #define ACCEL_COV { 0.01, 0.01, 0.01 }
 #define GYRO_COV { 0.001, 0.001, 0.001 }
