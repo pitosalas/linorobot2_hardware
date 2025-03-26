@@ -1,0 +1,1 @@
+/home/pitosalas/linorobot2_hardware/firmware/build/my_custom_message/rosidl_cmake/rosidl_cmake-extras.cmake

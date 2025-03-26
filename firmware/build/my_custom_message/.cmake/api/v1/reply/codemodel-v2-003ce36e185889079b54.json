@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-783bef6eb6feed710cfc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "my_custom_message__py",
+					"jsonFile" : "directory-my_custom_message__py-c96b3c77b71ccdd2759b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pitosalas/linorobot2_hardware/firmware/build/my_custom_message/my_custom_message__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_custom_message",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_custom_message_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_custom_message_egg-0450162bdd07f991c97c.json",
+					"name" : "ament_cmake_python_build_my_custom_message_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_my_custom_message::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_my_custom_message-080bd2451eb731d26f02.json",
+					"name" : "ament_cmake_python_symlink_my_custom_message",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message-2d93d5a15e1beaff3508.json",
+					"name" : "my_custom_message",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__cpp-cd6c859a687f4c4fa444.json",
+					"name" : "my_custom_message__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_custom_message__py::@96a9e0459af4f9b79cdf",
+					"jsonFile" : "target-my_custom_message__py-8825ec7430a45cbb580a.json",
+					"name" : "my_custom_message__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__rosidl_generator_c-cc6c12bd71bf870866c8.json",
+					"name" : "my_custom_message__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__rosidl_generator_py-78e696159f98d56173aa.json",
+					"name" : "my_custom_message__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__rosidl_generator_type_description-49508f4ebe9eac7d8361.json",
+					"name" : "my_custom_message__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__rosidl_typesupport_c-cfa38d819bd88fcc080b.json",
+					"name" : "my_custom_message__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__rosidl_typesupport_cpp-6ee6fc9733ead01fc30d.json",
+					"name" : "my_custom_message__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__rosidl_typesupport_fastrtps_c-b4bd19000b9c71ca172c.json",
+					"name" : "my_custom_message__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__rosidl_typesupport_fastrtps_cpp-ff411b37365605adf010.json",
+					"name" : "my_custom_message__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__rosidl_typesupport_introspection_c-58a9b78347c909c753c0.json",
+					"name" : "my_custom_message__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message__rosidl_typesupport_introspection_cpp-8c47a709232b35f2227e.json",
+					"name" : "my_custom_message__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message_s__rosidl_typesupport_c-be78857e98a63f43c9be.json",
+					"name" : "my_custom_message_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message_s__rosidl_typesupport_fastrtps_c-e4a56cc809166274abf4.json",
+					"name" : "my_custom_message_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message_s__rosidl_typesupport_introspection_c-345c89f318ce519f4b90.json",
+					"name" : "my_custom_message_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_custom_message_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_custom_message_uninstall-28002535324a5c8b682e.json",
+					"name" : "my_custom_message_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-af223bdc73add50327ce.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pitosalas/linorobot2_hardware/firmware/build/my_custom_message",
+		"source" : "/home/pitosalas/linorobot2_hardware/firmware/extra_packages/my_custom_message"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

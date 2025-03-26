@@ -1,0 +1,7 @@
+{
+  "package_name": "my_custom_message",
+  "output_dir": "/home/pitosalas/linorobot2_hardware/firmware/build/my_custom_message/rosidl_generator_type_description/my_custom_message",
+  "idl_tuples": [
+    "/home/pitosalas/linorobot2_hardware/firmware/build/my_custom_message/rosidl_adapter/my_custom_message:msg/MyCustomMessage.idl"
+  ]
+}

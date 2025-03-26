@@ -37,10 +37,11 @@
 // #define USE_HMC5883L_MAG
 // #define USE_AK8963_MAG
 // #define USE_AK8975_MAG
-// #define USE_AK09918_MAG
+#define USE_AK09918_MAG
 // #define USE_QMC5883L_MAG
 
-#define MAG_BIAS { 1.32662e-05, -5.43438e-05, 1.06151e-05 } //magnetometer bias
+//#define MAG_BIAS { 1.32662e-05, -5.43438e-05, 1.06151e-05 } // before flipping the board
+#define MAG_BIAS {6.93214e-05, 2.81223e-05, -6.09672e-05}
 // #define IMU_TWEAK {}
 // #define MAG_TWEAK {}
 
