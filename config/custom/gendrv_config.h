@@ -65,25 +65,25 @@ ROBOT ORIENTATION
 */
 
 //define your robot' specs here
-#define MOTOR_MAX_RPM 150                   // motor's max RPM
-#define MAX_RPM_RATIO 0.60                  // MAX_RPM_RATIO calcs MAX_RPM_ALLOWED = MOTOR_MAX_RPM * MAX_RPM_RATIO
+#define MOTOR_MAX_RPM 253                   // motor's max RPM
+#define MAX_RPM_RATIO 0.60                  // MAX_RPM_ALLOWED = MOTOR_MAX_RPM * MAX_RPM_RATIO
 #define MOTOR_OPERATING_VOLTAGE 12          // motor's operating voltage (used to calculate max RPM)
 #define MOTOR_POWER_MAX_VOLTAGE 12          // max voltage of the motor's power source (used to calculate max RPM)
 #define MOTOR_POWER_MEASURED_VOLTAGE 12     // current voltage reading of the power connected to the motor (used for calibration)
-#define COUNTS_PER_REV1 985                 // wheel1 encoder's no of ticks per rev
-#define COUNTS_PER_REV2 985                 // wheel2 encoder's no of ticks per rev
+#define COUNTS_PER_REV1 1400                // wheel1 encoder's no of ticks per rev
+#define COUNTS_PER_REV2 1400                // wheel2 encoder's no of ticks per rev
 #define COUNTS_PER_REV3 450                 // wheel3 encoder's no of ticks per rev
 #define COUNTS_PER_REV4 450                 // wheel4 encoder's no of ticks per rev
-#define WHEEL_DIAMETER 0.063               // wheel's diameter in meters
-#define LR_WHEELS_DISTANCE 0.202          // distance between left and right wheels
+#define WHEEL_DIAMETER 0.063                // wheel's diameter in meters
+#define LR_WHEELS_DISTANCE 0.202            // distance between left and right wheels
 #define PWM_BITS 10                         // PWM Resolution of the microcontroller
 #define PWM_FREQUENCY 20000                 // PWM Frequency
 #define SERVO_BITS 12                       // Servo PWM resolution
 #define SERVO_FREQ 50                       // Servo PWM frequency
 
 // INVERT ENCODER COUNTS
-#define MOTOR1_ENCODER_INV true
-#define MOTOR2_ENCODER_INV true
+#define MOTOR1_ENCODER_INV false
+#define MOTOR2_ENCODER_INV false
 #define MOTOR3_ENCODER_INV false
 #define MOTOR4_ENCODER_INV false
 
