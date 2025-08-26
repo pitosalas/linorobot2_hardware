@@ -82,8 +82,8 @@ ROBOT ORIENTATION
 #define SERVO_FREQ 50                       // Servo PWM frequency
 
 // INVERT ENCODER COUNTS
-#define MOTOR1_ENCODER_INV false
-#define MOTOR2_ENCODER_INV false
+#define MOTOR1_ENCODER_INV true
+#define MOTOR2_ENCODER_INV true
 #define MOTOR3_ENCODER_INV false
 #define MOTOR4_ENCODER_INV false
 
