@@ -33,7 +33,7 @@
 // #define USE_MPU6050_IMU
 // #define USE_MPU9150_IMU
 // #define USE_MPU9250_IMU
-#define USE_QMI8658_IMU
+// #define USE_QMI8658_IMU Commented out per Thomas to see if I get some cpu back
 // #define USE_HMC5883L_MAG
 // #define USE_AK8963_MAG
 // #define USE_AK8975_MAG
@@ -41,7 +41,7 @@
 // #define USE_QMC5883L_MAG
 
 //#define MAG_BIAS { 1.32662e-05, -5.43438e-05, 1.06151e-05 } // before flipping the board
-#define MAG_BIAS {6.93214e-05, 2.81223e-05, -6.09672e-05}
+#define MAG_BIAS {-6.63192e-05, -3.33703e-05, -2.12065e-05}
 // #define IMU_TWEAK {}
 // #define MAG_TWEAK {}
 
@@ -220,7 +220,7 @@ ROBOT ORIENTATION
 // #define BATTERY_PIN 33
 // 3.3V ref, 12 bits ADC, 33k + 10k voltage divider
 #define BATTERY_ADJUST(v) ((v) * (3.3 / 4096 * (33 + 10) / 10))
-#define USE_INA219
+// #define USE_INA219 Commented out per THomas' idea to give me more hz on topics
 #define BATTERY_DIP 0.98  // battery voltage drop alert
 // #define BATTERY_CAP 2.0  // battery capacity Ah
 // #define BATTERY_MIN 9.0  // battery minimal voltage
