@@ -442,11 +442,12 @@ bool createEntities()
 #endif
     // create timer for actuating the motors at 50 Hz (1000/20)
     const unsigned int control_timeout = CONTROL_TIMER;
-    RCCHECK(rclc_timer_init_default(
+    RCCHECK(rclc_timer_init_default2(
         &control_timer,
         &support,
         RCL_MS_TO_NS(control_timeout),
-        controlCallback
+        controlCallback,
+        true
     ));
     RCCHECK(rclc_executor_init(&executor, &support.context, 3, &allocator));
     RCCHECK(rclc_executor_add_subscription(
