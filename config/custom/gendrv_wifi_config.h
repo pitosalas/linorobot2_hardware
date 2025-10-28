@@ -37,7 +37,7 @@
 // #define USE_HMC5883L_MAG
 // #define USE_AK8963_MAG
 // #define USE_AK8975_MAG
-#define USE_AK09918_MAG
+// #define USE_AK09918_MAG
 // #define USE_QMC5883L_MAG
 // #define MAG_BIAS { 0, 0, 0 }
 // #define IMU_TWEAK {}
@@ -218,7 +218,7 @@ ROBOT ORIENTATION
 // #define BATTERY_PIN 33
 // 3.3V ref, 12 bits ADC, 33k + 10k voltage divider
 #define BATTERY_ADJUST(v) ((v) * (3.3 / 4096 * (33 + 10) / 10))
-#define USE_INA219
+// #define USE_INA219
 #define BATTERY_DIP 0.98  // battery voltage drop alert
 // #define BATTERY_CAP 2.0  // battery capacity Ah
 // #define BATTERY_MIN 9.0  // battery minimal voltage
