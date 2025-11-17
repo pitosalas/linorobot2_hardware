@@ -33,7 +33,7 @@
 // #define USE_MPU6050_IMU
 // #define USE_MPU9150_IMU
 // #define USE_MPU9250_IMU
-// #define USE_QMI8658_IMU Commented out per Thomas to see if I get some cpu back
+#define USE_QMI8658_IMU # Commented out per Thomas to see if I get some cpu back
 // #define USE_HMC5883L_MAG
 // #define USE_AK8963_MAG
 // #define USE_AK8975_MAG
@@ -213,9 +213,10 @@ ROBOT ORIENTATION
 #define SCL_PIN 33
 #define NODE_NAME "gendrv"
 // #define TOPIC_PREFIX "gendrv/"
-// #define CONTROL_TIMER 20
-// #define BATTERY_TIMER 2000
 
+#define CONTROL_TIMER 40 // ms (25Hz)
+
+// #define BATTERY_TIMER 2000
 // battery voltage ADC pin
 // #define BATTERY_PIN 33
 // 3.3V ref, 12 bits ADC, 33k + 10k voltage divider
