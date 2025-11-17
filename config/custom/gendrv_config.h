@@ -221,11 +221,7 @@ ROBOT ORIENTATION
 // #define BATTERY_PIN 33
 // 3.3V ref, 12 bits ADC, 33k + 10k voltage divider
 #define BATTERY_ADJUST(v) ((v) * (3.3 / 4096 * (33 + 10) / 10))
-<<<<<<< HEAD
-// #define USE_INA219 Commented out per THomas' idea to give me more hz on topics
-=======
 // #define USE_INA219
->>>>>>> upstream/master
 #define BATTERY_DIP 0.98  // battery voltage drop alert
 // #define BATTERY_CAP 2.0  // battery capacity Ah
 // #define BATTERY_MIN 9.0  // battery minimal voltage
