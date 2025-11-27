@@ -1,4 +1,5 @@
 // Copyright (c) 2021 Juan Miguel Jimeno
+// Customized by Pito
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -33,15 +34,13 @@
 // #define USE_MPU6050_IMU
 // #define USE_MPU9150_IMU
 // #define USE_MPU9250_IMU
-#define USE_QMI8658_IMU # Commented out per Thomas to see if I get some cpu back
+// #define USE_QMI8658_IMU # Commented out per Thomas to see if I get some cpu back
 // #define USE_HMC5883L_MAG
 // #define USE_AK8963_MAG
 // #define USE_AK8975_MAG
 // #define USE_AK09918_MAG
 // #define USE_QMC5883L_MAG
-
-//#define MAG_BIAS { 1.32662e-05, -5.43438e-05, 1.06151e-05 } // before flipping the board
-#define MAG_BIAS {-6.63192e-05, -3.33703e-05, -2.12065e-05}
+// #define MAG_BIAS { 0, 0, 0 }
 // #define IMU_TWEAK {}
 // #define MAG_TWEAK {}
 
@@ -214,7 +213,7 @@ ROBOT ORIENTATION
 #define NODE_NAME "gendrv"
 // #define TOPIC_PREFIX "gendrv/"
 
-#define CONTROL_TIMER 40 // ms (25Hz)
+#define CONTROL_TIMER 20 // ms (25Hz)
 
 // #define BATTERY_TIMER 2000
 // battery voltage ADC pin
