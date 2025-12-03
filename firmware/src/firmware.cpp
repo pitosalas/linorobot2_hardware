@@ -247,7 +247,6 @@ void moveBase()
 bool syncTime()
 {
     const int timeout_ms = 1000;
-    if (rmw_uros_epoch_synchronized()) return true; // synchronized previously
     // get the current time from the agent
     RCCHECK(rmw_uros_sync_session(timeout_ms));
     if (rmw_uros_epoch_synchronized()) {
@@ -602,6 +601,8 @@ void loop() {
             break;
         case AGENT_CONNECTED:
             EXECUTE_EVERY_N_MS(200, state = (RMW_RET_OK == rmw_uros_ping_agent(100, 1)) ? AGENT_CONNECTED : AGENT_DISCONNECTED;);
+            // Periodically re-synchronize time to counter clock drift
+            EXECUTE_EVERY_N_MS(300000, syncTime()); // 300000 ms = 5 minutes
             if (state == AGENT_CONNECTED)
             {
                 rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
