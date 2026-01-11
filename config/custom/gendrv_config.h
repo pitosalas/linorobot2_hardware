@@ -46,7 +46,7 @@
 
 #define K_P 0.6                             // P constant
 #define K_I 0.8                             // I constant
-#define K_D 0.0                            // D constant
+#define K_D 0.1                            // D constant
 
 #define ACCEL_COV { 0.01, 0.01, 0.01 }
 #define GYRO_COV { 0.001, 0.001, 0.001 }
@@ -73,8 +73,8 @@ ROBOT ORIENTATION
 #define COUNTS_PER_REV2 1400                // wheel2 encoder's no of ticks per rev
 #define COUNTS_PER_REV3 450                 // wheel3 encoder's no of ticks per rev
 #define COUNTS_PER_REV4 450                 // wheel4 encoder's no of ticks per rev
-#define WHEEL_DIAMETER 0.063                // wheel's diameter in meters
-#define LR_WHEELS_DISTANCE 0.215            // distance between left and right wheels
+#define WHEEL_DIAMETER 0.071                // wheel's diameter in meters
+#define LR_WHEELS_DISTANCE 0.250            // distance between left and right wheels
 #define PWM_BITS 10                         // PWM Resolution of the microcontroller
 #define PWM_FREQUENCY 20000                 // PWM Frequency
 #define SERVO_BITS 12                       // Servo PWM resolution
